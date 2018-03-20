@@ -17,9 +17,6 @@
   {% if site.bootswatch %}
     "bootswatch/{{site.bootswatch | downcase}}/bootswatch"
   {% endif %}
-
-  /*"syntax-highlighting",
-  "typeahead"*/
 ;
 
 html {
