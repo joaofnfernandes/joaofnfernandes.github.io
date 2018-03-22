@@ -3,7 +3,7 @@ description: The step-by-step protocol for storing bitcoins in a highly secure w
 incremental: true
 show_dir_listing: false
 permalink: pretty
-url: "https://joaofnfernandes.github.io/glacier"
+url: "https://joaofnfernandes.github.io"
 timezone: America/Los_Angeles
 
 # Set this if the repo is for a project, e.g
