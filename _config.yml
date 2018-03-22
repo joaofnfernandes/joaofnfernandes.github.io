@@ -4,15 +4,18 @@ incremental: true
 show_dir_listing: false
 permalink: pretty
 url: "https://joaofnfernandes.github.io/glacier"
-baseurl: "/glacier"
 timezone: America/Los_Angeles
+
+# Set this if the repo is for a project, e.g
+# "/glacier" -> https://gh-user.github.io/glacier
+baseurl:
 
 # Exclude from site build
 exclude: [".git", ".gitignore", "dockerfiles", "Makefile", "README.md", "todo.md"]
 
 # Urls to social networks
-git_address: https://github.com/joaofnfernandes/glacier
-git_edit_address: https://github.com/joaofnfernandes/glacier/edit/master/docs
+git_address: https://github.com/joaofnfernandes/joaofnfernandes.github.io
+git_edit_address: https://github.com/joaofnfernandes/joaofnfernandes.github.io/edit/master
 twitter_address: https://twitter.com/glacierprotocol
 gitter_address: https://gitter.im/glacierprotocol/lobby
 
@@ -32,7 +35,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Config for jekyll-relative-links plugin
+# jekyll-relative-links specific configs
 relative_links:
   enabled: true
   collections: true
