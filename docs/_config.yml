@@ -7,6 +7,9 @@ url: "https://joaofnfernandes.github.io/glacier"
 baseurl: "/glacier"
 timezone: America/Los_Angeles
 
+# Exclude from site build
+exclude: [".git", ".gitignore", "dockerfiles", "Makefile", "README.md", "todo.md"]
+
 # Urls to social networks
 git_address: https://github.com/joaofnfernandes/glacier
 git_edit_address: https://github.com/joaofnfernandes/glacier/edit/master/docs
