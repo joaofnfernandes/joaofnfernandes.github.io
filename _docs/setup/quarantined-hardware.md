@@ -37,9 +37,9 @@ label ("Q1", "Q2", or "SETUP 1", or "SETUP 2"). For example:
     3. Physically remove the wireless card.
 
         1. For the recommended Dell laptop, Dell's official instructions for
-        doing so are [here](http://topics-cdn.dell.com/pdf/inspiron-11-3162-laptop_Service%20Manual_en-us.pdf){: target="_blank" ._}.
+        doing so are [here](http://topics-cdn.dell.com/pdf/inspiron-11-3162-laptop_Service%20Manual_en-us.pdf).
         A YouTube video showing an abbreviated procedure is
-        [here](https://www.youtube.com/watch?v=nFYXQQPoh90){: target="_blank" ._}.
+        [here](https://www.youtube.com/watch?v=nFYXQQPoh90).
         2. For the recommended Acer laptop, the process is similar to the Dell.
         Note there are two cover screws hidden underneath rubber feet on the
         bottom of the laptop.

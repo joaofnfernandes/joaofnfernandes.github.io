@@ -48,7 +48,7 @@ Here's what you can trust about this protocol:
 Bitcoin technology and security experts. See our advisor list.
 * **Open source**: GlacierScript, the Glacier companion software, is open
 source. The code is straightforward and well-commented to facilitate easy review
-for flaws or vulnerabilities. [View it on Github](https://github.com/GlacierProtocol/GlacierProtocol){: target="_blank" ._}.
+for flaws or vulnerabilities. [View it on Github](https://github.com/GlacierProtocol/GlacierProtocol).
 * **Community review**: The protocol has evolved in conjunction with the wider
 Bitcoin community. Early versions were circulated during development, and
 community feedback integrated. [See our list of contributors](contribute/acknowledgments/).
@@ -73,10 +73,10 @@ For most people, most of the time, the authors recommend storing Bitcoin using a
 high-quality online storage service. The pros and cons of the various online
 services are beyond the scope of this document, but most popular ones are fairly
 secure and easy to use. Some popular options are
-[Blockchain](https://blockchain.info/){: target="_blank" ._},
-[Coinbase](https://www.coinbase.com/){: target="_blank" ._},
-[Gemini](https://gemini.com/){: target="_blank" ._},
-and [Kraken](https://www.kraken.com/){: target="_blank" ._}.
+[Blockchain](https://blockchain.info/),
+[Coinbase](https://www.coinbase.com/),
+[Gemini](https://gemini.com/),
+and [Kraken](https://www.kraken.com/).
 
 However, all online storage services still come with some notable risks
 which self-managed storage does not have:
@@ -98,9 +98,9 @@ group of employees & contractors.
 or under pressure from governments) to seize your funds.
 There is historical precedent for this, even if funds are not suspected of
 criminal involvement. In 2010,
-[Cyprus unilaterally seized many bank depositors' funds ](https://www.theguardian.com/world/2013/mar/25/cyprus-bailout-deal-eu-closes-bank){: target="_blank" ._}
+[Cyprus unilaterally seized many bank depositors' funds ](https://www.theguardian.com/world/2013/mar/25/cyprus-bailout-deal-eu-closes-bank)
 to cope with an economic crisis. In 1933, the US abruptly
-[demanded citizens surrender almost all gold they owned to the government](https://en.wikipedia.org/wiki/Executive_Order_6102){: target="_blank" ._}.
+[demanded citizens surrender almost all gold they owned to the government](https://en.wikipedia.org/wiki/Executive_Order_6102).
 Regardless of how one views the political desirability of these particular
 decisions, there is precedent for governments taking such an action, and one
 cannot necessarily predict the reasons they might do so in the future.
@@ -113,14 +113,14 @@ on the amount insured.
 
 These risks are not theoretical. Many online services have lost customers' funds
 (and not reimbursed them), including
-[Mt. Gox](https://www.bloomberg.com/news/articles/2014-02-28/mt-gox-exchange-files-for-bankruptcy){: target="_blank" ._},
-[Bitfinex](http://www.bbc.com/news/technology-37009319){: target="_blank" ._},
+[Mt. Gox](https://www.bloomberg.com/news/articles/2014-02-28/mt-gox-exchange-files-for-bankruptcy),
+[Bitfinex](http://www.bbc.com/news/technology-37009319),
 and many more.
 
 Recently, some providers are rolling out services which are a hybrid
 of an online service and self-managed storage. Examples include
-[Coinbase's multisig vault](https://www.coinbase.com/vault){: target="_blank" ._}
-and [Green Address](https://greenaddress.it/en/){: target="_blank" ._}.
+[Coinbase's multisig vault](https://www.coinbase.com/vault)
+and [Green Address](https://greenaddress.it/en/).
 The design of these services
 significantly reduces (though does not eliminate) the risks described above.
 
@@ -139,9 +139,9 @@ Glacier focuses exclusively on self-managed storage.
 Many people who choose
 self-managed storage (as opposed to an online storage service) use "hardware
 wallets" such as the
-[Trezor](https://trezor.io/){: target="_blank" ._},
-[Ledger](https://www.ledgerwallet.com/){: target="_blank" ._},
-and [KeepKey](https://www.keepkey.com/){: target="_blank" ._}
+[Trezor](https://trezor.io/),
+[Ledger](https://www.ledgerwallet.com/),
+and [KeepKey](https://www.keepkey.com/)
 to store their bitcoins. While these are great products that provide strong security,
 Glacier is intended to offer an even higher level of protection than today's
 hardware wallets can provide.

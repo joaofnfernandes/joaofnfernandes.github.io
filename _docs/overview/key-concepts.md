@@ -33,7 +33,7 @@ viruses out there that search computers for private keys and steal them
 One way to protect against this is by
 encrypting your private key, so even if a thief steals it, they can't read
 it. This helps, but is not foolproof. For example, a thief might install
-[keylogger malware](https://en.wikipedia.org/wiki/Keystroke_logging){: target="_blank" ._}
+[keylogger malware](https://en.wikipedia.org/wiki/Keystroke_logging)
 so that they steal your password too.
 
 Online keys are

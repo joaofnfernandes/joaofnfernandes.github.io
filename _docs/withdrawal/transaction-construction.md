@@ -162,8 +162,8 @@ to prepare your quarantined workspace.
         2. If the smartphone doesn't already have a QR code reader on it,
         install one. Any reader is fine as long as it can read all types of QR
         codes, but here are recommendations we've tested with this protocol:
-        [iOS](https://itunes.apple.com/us/app/qr-reader-for-iphone/id368494609?mt=8){: target="_blank" ._},
-        [Android](https://play.google.com/store/apps/details?id=com.application_4u.qrcode.barcode.scanner.reader.flashlight&hl=en){: target="_blank" ._}.
+        [iOS](https://itunes.apple.com/us/app/qr-reader-for-iphone/id368494609?mt=8),
+        [Android](https://play.google.com/store/apps/details?id=com.application_4u.qrcode.barcode.scanner.reader.flashlight&hl=en).
     2. Transfer the signed transaction data to a non-quarantined computer.
         1. **On the Q1 computer**, display the <span class="warning">raw
         signed transaction</span> as a QR code on the screen:

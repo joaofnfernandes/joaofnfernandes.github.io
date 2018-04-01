@@ -53,7 +53,7 @@ to get it.
 The protocol recommends storing copies of moderately-sensitive
 data electronically, in a "conventionally secure" manner (for example, in
 a password manager such as
-[1Password](https://1password.com/){: target="_blank" ._}). If you're particularly
+[1Password](https://1password.com/)). If you're particularly
 concerned about privacy, you can forego electronic storage, because the protocol
 also stores copies of moderately-sensitive data in cold storage with each private
 key. However, this is not recommended.

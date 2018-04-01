@@ -10,7 +10,7 @@ first time and do not plan on executing the Deposit or Withdrawal protocol now, 
 
 1. Block side channels
 
-    [Side-channel attacks](https://en.wikipedia.org/wiki/Side-channel_attack){: target="_blank" ._}
+    [Side-channel attacks](https://en.wikipedia.org/wiki/Side-channel_attack)
     are a form of electronic threat based on the physical nature of computing
     hardware (as opposed to algorithms or their software implementations).
     Side channel attacks are rare, but it's relatively straightforward to
@@ -20,21 +20,21 @@ first time and do not plan on executing the Deposit or Withdrawal protocol now, 
         1. Ensure that no humans or cameras (e.g. home security cameras, which
         can be hacked) have visual line-of-sight to the Quarantined Computers.
         2. Close doors and window shades.
-    2. [Acoustic side channel](https://en.wikipedia.org/wiki/Acoustic_cryptanalysis){: target="_blank" ._}
+    2. [Acoustic side channel](https://en.wikipedia.org/wiki/Acoustic_cryptanalysis)
         1. Choose a room where sound will not travel easily outside.
         2. Shut down nearby devices with microphones (e.g. smartphones and
         other laptops).
         3. Plug in and turn on a table fan to generate white noise.
-    3. [Power side channel](http://sharps.org/wp-content/uploads/CLARK-ESORICS13.pdf){: target="_blank" ._}
+    3. [Power side channel](http://sharps.org/wp-content/uploads/CLARK-ESORICS13.pdf)
         1. Unplug both Quarantined Computers from the wall.
         2. Run them only on battery power throughout this protocol.
         3. Make sure they are fully charged first! If you run out of battery,
         you'll need to start over.
-    4. [Radio](https://cyber.bgu.ac.il/how-leak-sensitive-data-isolated-computer-air-gap-near-mobile-phone-airhopper/){: target="_blank" ._}
+    4. [Radio](https://cyber.bgu.ac.il/how-leak-sensitive-data-isolated-computer-air-gap-near-mobile-phone-airhopper/)
     and other side channels. Including
-    [seismic](https://www.cc.gatech.edu/fac/traynor/papers/traynor-ccs11.pdf){: target="_blank" ._},
-    [thermal](https://cyber.bgu.ac.il/bitwhisper-heat-air-gap/){: target="_blank" ._},
-    and [magnetic](http://fc15.ifca.ai/preproceedings/paper_14.pdf){: target="_blank" ._}.
+    [seismic](https://www.cc.gatech.edu/fac/traynor/papers/traynor-ccs11.pdf),
+    [thermal](https://cyber.bgu.ac.il/bitwhisper-heat-air-gap/),
+    and [magnetic](http://fc15.ifca.ai/preproceedings/paper_14.pdf).
         1. Turn off all other computers and smartphones in the room.
         2. Put portable computing devices in the Faraday bag and seal the bag.
         3. Unplug desktop computers.

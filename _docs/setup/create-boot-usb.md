@@ -9,7 +9,7 @@ cannot download software. We'll be using USB drives to transfer the necessary
 software to them.
 
 We will prepare four bootable
-[Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_(operating_system)){: target="_blank" ._}
+[Ubuntu](https://en.wikipedia.org/wiki/Ubuntu_(operating_system))
 USB drives. ("Bootable" means that the Ubuntu operating system will be booted
 directly from the USB drive, without using the computer's hard drive in any
 way.)
@@ -80,14 +80,14 @@ copy there.
         security analysis, see the design document.
 
         You can verify this is the official Ubuntu fingerprint
-        [here](http://releases.ubuntu.com/16.04/SHA256SUMS){: target="_blank" ._},
+        [here](http://releases.ubuntu.com/16.04/SHA256SUMS),
         or follow Ubuntu's full verification process using this guide.
 
 6. Create the SETUP 1 BOOT USB.
 
     1. **Windows**
         1. Download the
-        [Rufus disk utility](https://rufus.akeo.ie/){: target="_blank" ._}
+        [Rufus disk utility](https://rufus.akeo.ie/)
         and run it.
         2. Insert the SETUP 1 BOOT USB in an empty USB slot.
         3. In the "Device" dropdown at the top of the Rufus window, ensure the

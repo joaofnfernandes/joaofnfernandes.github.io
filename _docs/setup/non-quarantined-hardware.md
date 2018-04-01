@@ -27,10 +27,10 @@ drives.
 4. Run a virus scan on the Setup Computers. If you don't have virus scanning
 software installed, here are some options:
 
-    * Windows: [Kaspersky](https://usa.kaspersky.com/){: target="_blank" ._} ($39.99/yr),
-    [Avira](https://www.avira.com){: target="_blank" ._} (Free)
-    * macOS: [BitDefender](https://www.bitdefender.com/){: target="_blank" ._} ($59.95/yr),
-    [Sophos](https://home.sophos.com/){: target="_blank" ._} (Free)
+    * Windows: [Kaspersky](https://usa.kaspersky.com/) ($39.99/yr),
+    [Avira](https://www.avira.com) (Free)
+    * macOS: [BitDefender](https://www.bitdefender.com/) ($59.95/yr),
+    [Sophos](https://home.sophos.com/) (Free)
     * Linux: Unnecessary
 
 5. If the virus scan comes up with any viruses, take steps to remove them.

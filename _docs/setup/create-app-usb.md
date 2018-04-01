@@ -106,7 +106,7 @@ already. (See the instructions in Section III for details.)
         drive on the left. The USB drive will look like this, but may have a
         different name:
         4. If you see an "Error while copying" pop-up, you may be suffering from
-        [this Ubuntu bug](https://bugs.launchpad.net/ubuntu/+source/nautilus/+bug/1021375){: target="_blank" ._}.
+        [this Ubuntu bug](https://bugs.launchpad.net/ubuntu/+source/nautilus/+bug/1021375).
         To fix it, do the following and then retry copying the files:
 
             1.  
@@ -120,7 +120,7 @@ already. (See the instructions in Section III for details.)
 5. Open the Glacier protocol document so that it is available for copy-pasting terminal commands.
 6. Install the remaining application software on the Q1 APP USB.
     1. Configure our system to enable access to the software we need in Ubuntu's
-    "package repository".On Ubuntu 16.04.01  [there is a bug](https://bugs.launchpad.net/ubuntu/+source/appstream/+bug/1601971){: target="_blank" ._} in Ubuntu's package manager that affects systems
+    "package repository".On Ubuntu 16.04.01  [there is a bug](https://bugs.launchpad.net/ubuntu/+source/appstream/+bug/1601971) in Ubuntu's package manager that affects systems
     running off a bootable Ubuntu USB. The commands in steps a and b are a
     workaround.
         1. ```
@@ -139,7 +139,7 @@ already. (See the instructions in Section III for details.)
         $ sudo apt-get update
         ```
     2. Download and perform integrity verification59 of software available from Ubuntu's package repository:
-        * **bitcoind**: [Bitcoin Core](https://bitcoincore.org/){: target="_blank" ._}:
+        * **bitcoind**: [Bitcoin Core](https://bitcoincore.org/):
         , which we'll use for cryptography & financial operations
         * **qrencode**: Used for creating QR codes to move data off quarantined
         computers

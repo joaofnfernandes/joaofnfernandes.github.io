@@ -30,7 +30,7 @@ yourself from your smartphone previously.
     <span class="warning">transaction ID</span> for your withdrawal; make a
     note of it.
 4. Verify the withdrawal on the public blockchain.
-    1. Go to [Blockr](https://www.coinbase.com/){: target="_blank" ._} , paste
+    1. Go to [Blockr](https://www.coinbase.com/) , paste
     the destination <span class="warning">address</span> into the search bar,
     and press Enter. You'll be taken to a page that says "Bitcoin Address" at
     the top, with the destination address listed underneath.

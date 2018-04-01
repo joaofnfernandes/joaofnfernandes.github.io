@@ -7,7 +7,7 @@ description: Learn how to transfer your cold storage data to paper using
 In this section, you'll move the cold storage data you generated in Section I
 from the quarantined computing environments onto physical paper. This will be
 done using a combination hand transcription and
-[QR codes](https://en.wikipedia.org/wiki/QR_code){: target="_blank" ._}.
+[QR codes](https://en.wikipedia.org/wiki/QR_code).
 
 1. Transfer the <span class="danger">private keys</span> to paper.
     1. Write each <span class="danger">private key</span> on a separate piece
@@ -76,8 +76,8 @@ done using a combination hand transcription and
 
     Any reader is fine as long as it can read all types of QR codes, but
     here are recommendations we've tested with Glacier:
-    [iOS](https://itunes.apple.com/us/app/qr-reader-for-iphone/id368494609?mt=8){: target="_blank" ._},
-    [Android](https://play.google.com/store/apps/details?id=com.application_4u.qrcode.barcode.scanner.reader.flashlight&hl=en){: target="_blank" ._}.
+    [iOS](https://itunes.apple.com/us/app/qr-reader-for-iphone/id368494609?mt=8),
+    [Android](https://play.google.com/store/apps/details?id=com.application_4u.qrcode.barcode.scanner.reader.flashlight&hl=en).
 
 4. Transfer the <span class="warning">cold storage address</span> to a
 non-quarantined computer.

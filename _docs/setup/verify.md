@@ -63,7 +63,7 @@ that's fine; proceed as normal.)
     As..."
     5. Name the file "glacier.asc".
 
-8. Download and install [GnuPG](https://gnupg.org/){: target="_blank" ._}, the
+8. Download and install [GnuPG](https://gnupg.org/), the
   software we'll use for doing the
   <a href="#" class="popovers" data-toggle="popover" data-placement="top" title=""
   data-content="
@@ -84,10 +84,10 @@ that's fine; proceed as normal.)
   ">See tech details</a>.
 
     1. **Windows**: Download and install the latest available version of
-    [Gpg4win](https://www.gpg4win.org/){: target="_blank" ._}. Use the default
+    [Gpg4win](https://www.gpg4win.org/). Use the default
     options.
     2. **macOS**: Download and install the latest available version of
-    [GPG Suite](https://gpgtools.org/){: target="_blank" ._}.
+    [GPG Suite](https://gpgtools.org/).
     3. **Linux**: GnuPG comes pre-installed with Linux distributions.
 
 9. Open a terminal window:

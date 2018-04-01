@@ -13,7 +13,7 @@ replacement before more keys are lost.
 * **New security threats**: Glacier may contain weaknesses which are currently
 undiscovered -- perhaps related to attacks which are not part of the current
 security landscape.
-* [Bit rot](https://en.wikipedia.org/wiki/Software_rot){: target="_blank" ._}:
+* [Bit rot](https://en.wikipedia.org/wiki/Software_rot):
 The Withdrawal Protocol depends on the availability of certain software
 (including not just the applications themselves, but also software libraries
 those applications depend on), plus hardware and networks that are compatible

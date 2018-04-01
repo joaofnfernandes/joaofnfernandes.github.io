@@ -65,7 +65,7 @@ manufacturers. This is exceptionally unlikely.
 
 ## Bitcoin Core and GlacierScript
 
-Glacier uses the [Bitcoin Core](https://bitcoincore.org/){: target="_blank" ._}
+Glacier uses the [Bitcoin Core](https://bitcoincore.org/)
 software for all cryptographic and financial operations, as its open source code
 is the most trustworthy. This is due to its track record of securing large amounts
 of money for many years, and the high degree of code review scrutiny it has
@@ -73,7 +73,7 @@ received.
 
 Glacier also utilizes GlacierScript, a software program that
 automates much of the manual work involved in executing the protocol.
-GlacierScript's [open source code](https://github.com/GlacierProtocol/GlacierProtocol){: target="_blank" ._} is straightforward and extensively
+GlacierScript's [open source code](https://github.com/GlacierProtocol/GlacierProtocol) is straightforward and extensively
 commented to facilitate easy review for flaws or vulnerabilities.
 
 ## Protocol Output
@@ -106,7 +106,7 @@ fraction of the time.
 
 As a free, volunteer-developed community project, there is no formal support
 channel for Glacier should you encounter any issues. However, you may be able to
-ask advice of community members on our [Gitter chat room](https://gitter.im/glacierprotocol/Lobby){: target="_blank" ._}
+ask advice of community members on our [Gitter chat room](https://gitter.im/glacierprotocol/Lobby)
 or other Bitcoin community forums.
 
 ## Privacy Considerations
@@ -116,7 +116,7 @@ privacy implications. For example, any person to whom you give your cold storage
 address (because, for example, they're sending you funds which you want to keep
 in cold storage) can see your total cold storage balance. This is easy to do
 with many free services (e.g.
-[Blockr](https://www.coinbase.com/){: target="_blank" ._} ).
+[Blockr](https://www.coinbase.com/) ).
 
 This is true not just of individuals, but entities. That is, any online wallet
 service which you use to send funds to cold storage can see your cold storage
@@ -133,15 +133,15 @@ uncertainty.
 
 If privacy is very important to you, you might consider using
 a service like
-[Shapeshift](https://shapeshift.io/#/coins){: target="_blank" ._}
+[Shapeshift](https://shapeshift.io/#/coins)
 to exchange your Bitcoins for an more anonymous cryptocurrency, such as
-[Monero](http://monero.org/){: target="_blank" ._},
+[Monero](http://monero.org/),
 and then exchange them back to Bitcoins.
 However, this will cost you fees, and importantly, it requires you trust the
 operator of the exchange service not to steal or lose your
 funds.
 
-[This guide](https://bitcoinnewsmagazine.com/how-to-use-monero-to-anonymize-bitcoin/){: target="_blank" ._}
+[This guide](https://bitcoinnewsmagazine.com/how-to-use-monero-to-anonymize-bitcoin/)
 gives additional detail about how to increase Bitcoin anonymity using Monero &
 Tor.
 
@@ -168,7 +168,7 @@ quarantined hardware. This fails to protect against some malware
 attacks, but provides additional savings in cost and effort.
 
 Such as an
-[existing infection of a laptop's firmware](https://www.youtube.com/watch?v=sNYsfUNegEA){: target="_blank" ._},
+[existing infection of a laptop's firmware](https://www.youtube.com/watch?v=sNYsfUNegEA),
 malware which overrides
 OS settings to disable wireless connectivity, or certain undiscovered
 vulnerabilities in the software used by the protocol.
