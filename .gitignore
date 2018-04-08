@@ -1,6 +1,10 @@
 # Mac files
 .DS_Store
 
+# Build artifacts
+bin
+dockerfiles/bin
+
 # Jekyll artifacts
 .jekyll-metadata
 .sass-cache
