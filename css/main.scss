@@ -125,3 +125,25 @@ ol > li > ol {
 ol {
   list-style-type: decimal;
 }
+
+/********************************************************************
+* Overrides to bootstrap _print.css, used to generate Glacier pdf
+*********************************************************************/
+@media print {
+  body {
+    padding: 0;
+  }
+  a {
+    color: $brand-primary;
+  }
+  a, a:visited {
+    text-decoration: none;
+  }
+  pre > code {
+    overflow: visible;
+    white-space: normal;
+  }
+  footer {
+    display: none;
+  }
+}
