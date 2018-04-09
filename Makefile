@@ -1,38 +1,62 @@
 SHA = $(shell git rev-parse --short HEAD)
-TOC=_data/docs_toc.yml
-SOURCE=$(shell grep '\s\s-\s.*' $(TOC) | sed 's/  - \(.*\)/_docs\/\1.md/')
-PANDOC_IMG = vbatts/pandoc:latest
+CONTAINER_NAME_SITE=glacier-website
+TOC_FILE=_data/docs_toc.yml
+SOURCE_DIR=_docs
 
-# Builds the site locally so that you can preview it without having to push to Github
+# Builds the site locally so that you can preview it without pushing to Github
 .PHONY: site
-site:
-	@echo "Building and running the site"
-	@docker run -it --rm --name site -v "$(shell pwd)":/usr/src/app -p 4000:4000 starefossen/github-pages:172
+site: run-site
 
-# Generates a pdf version of the protocol
+# Stops serving the website
+.PHONY: stop-site
+stop-site: run-stop-site
+
+# Generates a pdf version of the Glacier protocol
 .PHONY: pdf
 pdf: bin/glacier.pdf
 
+## Runs a spell checker on the sources
+.PHONY: spell
+spell: run-spell-check
 ################################################################################
 #	Utilities
 ################################################################################
 
+.PHONY: run-site
+run-site:
+	@echo "Deploying website"
+	@docker run -dit --rm --name $(CONTAINER_NAME_SITE) \
+		-v "$(shell pwd)":/usr/src/app \
+		-p 4000:4000 \
+		starefossen/github-pages:172
+	@echo "Website running at http://localhost:4000"
+
+.PHONY: run-stop-site
+run-stop-site:
+	@docker rm -f $(CONTAINER_NAME_SITE)
+	@echo "Site stopped"
+
 # Utility to generate a pdf version of the protocol
-# TODO: generate the real thing, not a sample
-bin/glacier.pdf: bin/sample.md dockerfiles/bin/.weasyprint
-	@echo "Generating pdf"
+bin/glacier.pdf: pdf.md dockerfiles/bin/.weasyprint
+	# TODO: generate pdf.md
+	@$(MAKE) run-site
+	@sleep 5
+	@echo "Generating PDF"
 	@mkdir -p bin
 	@docker run --rm \
 		-v $(shell pwd):/src \
-		weasyprint \
-		$< $@
+		weasyprint --base-url http://172.17.0.1:4000 \
+			http://172.17.0.1:4000/pdf.html $@
+	@$(MAKE) stop-site
+	@echo "PDF successfully created: $@"
 
 # Runs a spell checker to make sure your site looks nifty without typos
-.PHONY: spell-check
-spell-check: dockerfiles/bin/.spellcheck
+.PHONY: run-spell-check
+run-spell-check: dockerfiles/bin/.spellcheck
 	@echo "Running spellchecker"
 	@docker run --rm -t -v "$(shell pwd)":/src spellcheck
 
+# TODO: Add target that removes docker images
 .PHONY: clean
 clean:
 	@echo "Cleaning temp files and artifacts"
@@ -41,13 +65,12 @@ clean:
 ################################################################################
 #	Build Docker images
 ################################################################################
-
 dockerfiles/bin/.spellcheck: dockerfiles/spellcheck/Dockerfile dockerfiles/spellcheck/.spelling
 	@echo "Building Docker image with spellchecker"
 	@docker build -t spellcheck $(<D)
 	@touch $@
 
-dockerfiles/bin/.weasyprint: dockerfiles/weasyprint/Dockerfile dockerfiles/weasyprint/entrypoint.sh
+dockerfiles/bin/.weasyprint: dockerfiles/weasyprint/Dockerfile
 	@echo "Building Docker image with Pandoc and WeasyPrint"
 	@docker build -t weasyprint $(<D)
 	@touch $@
