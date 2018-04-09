@@ -22,12 +22,13 @@ RUN apt-get update && apt-get install -y \
 RUN pip3 install WeasyPrint
 
 # Install Pandoc
+# TODO: consider removing since its no longer in use
 RUN wget https://github.com/jgm/pandoc/releases/download/2.1.3/pandoc-2.1.3-linux.tar.gz && \
   tar -xzf pandoc-2.1.3-linux.tar.gz && \
   mv pandoc-2.1.3/bin/* /usr/local/bin
 
-COPY entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["weasyprint"]
+CMD ["--help"]
 
 WORKDIR /src
 VOLUME /src
