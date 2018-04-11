@@ -4,6 +4,7 @@
 # Build artifacts
 bin
 dockerfiles/bin
+pdf.md
 
 # Jekyll artifacts
 .jekyll-metadata

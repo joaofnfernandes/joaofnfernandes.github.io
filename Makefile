@@ -13,7 +13,7 @@ stop-site: run-stop-site
 
 # Generates a pdf version of the Glacier protocol
 .PHONY: pdf
-pdf: bin/glacier.pdf
+pdf: assets/glacier.pdf
 
 ## Runs a spell checker on the sources
 .PHONY: spell
@@ -37,18 +37,9 @@ run-stop-site:
 	@echo "Site stopped"
 
 # Utility to generate a pdf version of the protocol
-bin/glacier.pdf: pdf.md dockerfiles/bin/.weasyprint
-	# TODO: generate pdf.md
-	@$(MAKE) run-site
-	@sleep 5
-	@echo "Generating PDF"
-	@mkdir -p bin
-	@docker run --rm \
-		-v $(shell pwd):/src \
-		weasyprint --base-url http://172.17.0.1:4000 \
-			http://172.17.0.1:4000/pdf.html $@
-	@$(MAKE) stop-site
-	@echo "PDF successfully created: $@"
+assets/glacier.pdf: dockerfiles/bin/.weasyprint
+	./_build/generate_pdf.sh
+
 
 # Runs a spell checker to make sure your site looks nifty without typos
 .PHONY: run-spell-check

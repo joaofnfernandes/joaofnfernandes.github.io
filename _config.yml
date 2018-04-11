@@ -11,7 +11,7 @@ timezone: America/Los_Angeles
 baseurl:
 
 # Exclude from site build
-exclude: [".git", ".gitignore", "dockerfiles", "Makefile", "README.md", "todo.md"]
+exclude: [".git", ".gitignore", "_build", "dockerfiles", "Makefile", "README.md", "todo.md"]
 
 # Urls to social networks
 git_address: https://github.com/joaofnfernandes/joaofnfernandes.github.io
