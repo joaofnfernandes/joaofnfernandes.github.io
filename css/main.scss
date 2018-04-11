@@ -90,6 +90,7 @@ img.profile {
 /********************************************************************
 * Styles used in /docs
 *********************************************************************/
+
 /* Code snippets shouldn't break, they should scroll */
 pre > code {
   overflow-x: auto;
@@ -145,5 +146,19 @@ ol {
   }
   footer {
     display: none;
+  }
+}
+
+div.pdf-cover {
+  min-height: 500px;
+  margin-top: 250px;
+  page-break-after: always;
+  img {
+    display: block;
+    margin: auto;
+  }
+  h1, h2, h3 {
+    margin-top: 30px;
+    text-align: center;
   }
 }
