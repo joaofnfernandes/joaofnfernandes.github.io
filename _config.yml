@@ -29,6 +29,7 @@ bootswatch: paper
 # make sure you only use plugins Github pages supports
 # https://pages.github.com/versions/
 plugins:
+  # TODO: don't use relative links. Makes pdf generation easier
   - jekyll-relative-links
   - jekyll-feed
   - jekyll-redirect-from
