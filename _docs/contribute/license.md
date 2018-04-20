@@ -5,9 +5,7 @@ description: Learn more about the license for Glacer, the
 redirect_from: /docs/contribute/
 ---
 
-Copyright 2017 by James Hogan and Jacob Lyles.
-
-This document is distributed under the
+All the documents are distributed under the
 [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 The GlacierScript software is distributed under the
